@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "@/styles/Home.module.css";
 import RecruitmentProcess from "../../components/RecruitmentProcess.js";
 import Transition from "../../components/Transition.js";
@@ -23,6 +24,7 @@ export default function Home() {
                   height="50"
                   src="Logo-black.png"
                   id={styles.logo}
+                  alt="hero"
                 ></img>
               </a>
             </div>
@@ -30,13 +32,13 @@ export default function Home() {
               <div className="menu-primary-menu-new-container">
                 <ul id="menu-primary-menu-new-1" className="menu">
                   <li className="menu-item">
-                    <a href="/">item 1</a>
+                    <Link href="/">item 1</Link>
                   </li>
                   <li className="menu-item">
-                    <a href="/">item 2</a>
+                    <Link href="/">item 2</Link>
                   </li>
                   <li className="menu-item">
-                    <a href="/">item 3</a>
+                    <Link href="/">item 3</Link>
                   </li>
                 </ul>
               </div>
@@ -45,13 +47,13 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.heroContainer}>
-          <img
+          <Image
             className={styles.ny}
             height="750"
             width="1200"
-            src="brooklyn.jpg"
+            src="/brooklyn.jpg"
             alt="ny"
-          ></img>
+          ></Image>
           <div className="">
             <div className={styles.heroText}>
               Linking Opportunities with Careers
