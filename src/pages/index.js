@@ -18,7 +18,7 @@ export default function Home() {
         <div id={styles.topBar}>
           <div className={styles.container}>
             <div>
-              <a href="/">
+              <Link href="/">
                 <img
                   width="220"
                   height="50"
@@ -26,7 +26,7 @@ export default function Home() {
                   id={styles.logo}
                   alt="hero"
                 ></img>
-              </a>
+              </Link>
             </div>
             <div className={styles.topBarNav}>
               <div className="menu-primary-menu-new-container">
