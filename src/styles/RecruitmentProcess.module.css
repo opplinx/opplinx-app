@@ -1,0 +1,26 @@
+.infoContainer {
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+
+}
+
+
+.infoLeftDiv {
+    border: white; 
+}
+
+.infoLeftDiv:hover {
+    transition: .25s;
+    background-color: rgb(203, 217, 227);
+    color:rgb(12, 13, 14)
+}
+
+.infoRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60vw;
+    font-size: 2rem;
+}

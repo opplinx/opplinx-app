@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
+import RecruitmentProcess from "../../components/RecruitmentProcess.js";
+import Transition from "../../components/Transition.js";
 
 export default function Home() {
   return (
@@ -11,7 +13,57 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>Welcome to OppLinx</div>
+      <div id="outer">
+        <div id={styles.topBar}>
+          <div className={styles.container}>
+            <div>
+              <a href="/">
+                <img
+                  width="220"
+                  height="50"
+                  src="Logo-black.png"
+                  id={styles.logo}
+                ></img>
+              </a>
+            </div>
+            <div className={styles.topBarNav}>
+              <div className="menu-primary-menu-new-container">
+                <ul id="menu-primary-menu-new-1" className="menu">
+                  <li className="menu-item">
+                    <a href="/">item 1</a>
+                  </li>
+                  <li className="menu-item">
+                    <a href="/">item 2</a>
+                  </li>
+                  <li className="menu-item">
+                    <a href="/">item 3</a>
+                  </li>
+                </ul>
+              </div>
+              <div id="mobile-menu--btn"></div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.heroContainer}>
+          <img
+            className={styles.ny}
+            height="750"
+            width="1200"
+            src="brooklyn.jpg"
+            alt="ny"
+          ></img>
+          <div className="">
+            <div className={styles.heroText}>
+              Linking Opportunities with Careers
+            </div>
+            <div className={styles.heroTextSub}>
+              Leading React JS and Full Stack Developer Recruitment Agency
+            </div>
+          </div>
+        </div>
+        <Transition />
+        <RecruitmentProcess />
+      </div>
     </>
   );
 }
