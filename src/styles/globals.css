@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Rubik+Iso&display=swap');
+
+html {
+    font-family: "Poppins";
+}
+
+#outer {
+    display:flex;
+    width: 100vw;
+    flex-direction: column;
+}
+
+#menu-primary-menu-new-1 {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
