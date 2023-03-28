@@ -22,7 +22,7 @@ function RecruitmentProcess() {
           Use our proprietary database to look for candidates that matches your
           criteria. <br /> Review resumes with a focus on programming languages,
           frameworks, libraries, and other development tools relevant to the
-          clients' needs.
+          clients&apos; needs.
         </div>
       );
     }
@@ -130,7 +130,7 @@ function RecruitmentProcess() {
           }
           onClick={handleClick}
         >
-          &#167; Onboarding support{" "}
+          &#167; Onboarding support
         </div>
         <div
           id="post"
