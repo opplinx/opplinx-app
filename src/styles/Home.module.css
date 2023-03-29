@@ -51,18 +51,20 @@
   font-family: "Poppins";
   position: absolute;
   width: 100vw;
-  top: 35%;
+  top: 28%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .heroTextSub {
   font-family: "Poppins";
   position: absolute;
-  padding-left: 5px;
-  padding-right: 5px;
-  background-color: rgba(200,256,256,0.4);
+
+  border-radius: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  /* background-color: rgba(209,232,232,0.4); */
   font-size: 1.3rem;
-  top: 45%;
+  top: 37%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
