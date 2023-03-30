@@ -1,0 +1,78 @@
+.contactUsHeader {
+    background: #003696;
+    color: white;
+    padding: 1px;
+    margin: 0 0 35px 0;
+    min-height: 165px;
+}
+
+.contactMethods {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactFormContainer {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+
+
+.contactForm {
+    display: flex;
+    width: 50vw;
+    /* justify-content: space-evenly; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contactForm textarea {
+    height: 150px;
+    width: auto;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    resize: none;
+    
+}
+
+
+
+.formTextBoxesContainer {
+    display: flex;
+    width: 20vw;
+    flex-direction: column;
+    flex-flow: row wrap;
+}
+
+.formTextBoxesContainer input {
+    
+            
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+        
+}
+
+.formMessageAndSubmit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.formMessageAndSubmit button {
+    font-family: "Poppins";
+    background: #003696;
+    color: white;
+}

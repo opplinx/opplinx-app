@@ -13,8 +13,8 @@
 
 .infoLeftDiv:hover {
     transition: .25s;
-    background-color: rgb(203, 217, 227);
-    color:rgb(12, 13, 14)
+    background-color: #003696;
+    color: #fff
 }
 
 .infoRight {

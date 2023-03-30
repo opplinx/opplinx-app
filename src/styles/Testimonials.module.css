@@ -1,0 +1,12 @@
+.testimonialsHeader {
+    background: #003696;
+    color: white;
+    padding: 1px;
+    margin: 0 0 35px 0;
+    min-height: 165px;
+}
+
+.testimonialsContainer {
+    display: flex;
+
+}
