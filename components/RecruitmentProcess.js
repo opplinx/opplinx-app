@@ -77,7 +77,7 @@ function RecruitmentProcess() {
           className={styles.infoLeftDiv}
           style={
             recSection === "intake"
-              ? { backgroundColor: "rgb(203, 217, 227)" }
+              ? { backgroundColor: "#003696", color: "white" }
               : null
           }
           onClick={handleClick}
@@ -89,7 +89,7 @@ function RecruitmentProcess() {
           className={styles.infoLeftDiv}
           style={
             recSection === "start"
-              ? { backgroundColor: "rgb(203, 217, 227)" }
+              ? { backgroundColor: "#003696", color: "white" }
               : null
           }
           onClick={handleClick}
@@ -101,7 +101,7 @@ function RecruitmentProcess() {
           className={styles.infoLeftDiv}
           style={
             recSection === "submit"
-              ? { backgroundColor: "rgb(203, 217, 227)" }
+              ? { backgroundColor: "#003696", color: "white" }
               : null
           }
           onClick={handleClick}
@@ -113,7 +113,7 @@ function RecruitmentProcess() {
           className={styles.infoLeftDiv}
           style={
             recSection === "present"
-              ? { backgroundColor: "rgb(203, 217, 227)" }
+              ? { backgroundColor: "#003696", color: "white" }
               : null
           }
           onClick={handleClick}
@@ -125,7 +125,7 @@ function RecruitmentProcess() {
           className={styles.infoLeftDiv}
           style={
             recSection === "onboarding"
-              ? { backgroundColor: "rgb(203, 217, 227)" }
+              ? { backgroundColor: "#003696", color: "white" }
               : null
           }
           onClick={handleClick}
@@ -137,7 +137,7 @@ function RecruitmentProcess() {
           className={styles.infoLeftDiv}
           style={
             recSection === "post"
-              ? { backgroundColor: "rgb(203, 217, 227)" }
+              ? { backgroundColor: "#003696", color: "white" }
               : null
           }
           onClick={handleClick}
