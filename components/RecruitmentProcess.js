@@ -69,86 +69,90 @@ function RecruitmentProcess() {
   };
 
   return (
-    <div className={styles.infoContainer}>
-      <div className="info-left">
+    <>
+      <header className={styles.recruitmentHeader}>
         Our Recruitment Process
-        <div
-          id="intake"
-          className={styles.infoLeftDiv}
-          style={
-            recSection === "intake"
-              ? { backgroundColor: "#003696", color: "white" }
-              : null
-          }
-          onClick={handleClick}
-        >
-          &#167; Intake
+      </header>
+      <div className={styles.infoContainer}>
+        <div className="info-left">
+          <div
+            id="intake"
+            className={styles.infoLeftDiv}
+            style={
+              recSection === "intake"
+                ? { backgroundColor: "#003696", color: "white" }
+                : null
+            }
+            onClick={handleClick}
+          >
+            &#167; Intake
+          </div>
+          <div
+            id="start"
+            className={styles.infoLeftDiv}
+            style={
+              recSection === "start"
+                ? { backgroundColor: "#003696", color: "white" }
+                : null
+            }
+            onClick={handleClick}
+          >
+            &#167; Start the search
+          </div>
+          <div
+            id="submit"
+            className={styles.infoLeftDiv}
+            style={
+              recSection === "submit"
+                ? { backgroundColor: "#003696", color: "white" }
+                : null
+            }
+            onClick={handleClick}
+          >
+            &#167; Submit candidates
+          </div>
+          <div
+            id="present"
+            className={styles.infoLeftDiv}
+            style={
+              recSection === "present"
+                ? { backgroundColor: "#003696", color: "white" }
+                : null
+            }
+            onClick={handleClick}
+          >
+            &#167; Present offer
+          </div>
+          <div
+            id="onboarding"
+            className={styles.infoLeftDiv}
+            style={
+              recSection === "onboarding"
+                ? { backgroundColor: "#003696", color: "white" }
+                : null
+            }
+            onClick={handleClick}
+          >
+            &#167; Onboarding support
+          </div>
+          <div
+            id="post"
+            className={styles.infoLeftDiv}
+            style={
+              recSection === "post"
+                ? { backgroundColor: "#003696", color: "white" }
+                : null
+            }
+            onClick={handleClick}
+          >
+            &#167; Post-placement
+          </div>
         </div>
-        <div
-          id="start"
-          className={styles.infoLeftDiv}
-          style={
-            recSection === "start"
-              ? { backgroundColor: "#003696", color: "white" }
-              : null
-          }
-          onClick={handleClick}
-        >
-          &#167; Start the search
-        </div>
-        <div
-          id="submit"
-          className={styles.infoLeftDiv}
-          style={
-            recSection === "submit"
-              ? { backgroundColor: "#003696", color: "white" }
-              : null
-          }
-          onClick={handleClick}
-        >
-          &#167; Submit candidates
-        </div>
-        <div
-          id="present"
-          className={styles.infoLeftDiv}
-          style={
-            recSection === "present"
-              ? { backgroundColor: "#003696", color: "white" }
-              : null
-          }
-          onClick={handleClick}
-        >
-          &#167; Present offer
-        </div>
-        <div
-          id="onboarding"
-          className={styles.infoLeftDiv}
-          style={
-            recSection === "onboarding"
-              ? { backgroundColor: "#003696", color: "white" }
-              : null
-          }
-          onClick={handleClick}
-        >
-          &#167; Onboarding support
-        </div>
-        <div
-          id="post"
-          className={styles.infoLeftDiv}
-          style={
-            recSection === "post"
-              ? { backgroundColor: "#003696", color: "white" }
-              : null
-          }
-          onClick={handleClick}
-        >
-          &#167; Post-placement
+        <div className={styles.infoRight}>
+          <div>{displaySection()}</div>
         </div>
       </div>
-      <div className={styles.infoRight}>
-        <div>{displaySection()}</div>
-      </div>
-    </div>
+    </>
   );
 }
 

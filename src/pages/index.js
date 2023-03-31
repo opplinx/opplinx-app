@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
+import Link from "next/link";
 import styles from "@/styles/Home.module.css";
 import RecruitmentProcess from "../../components/RecruitmentProcess.js";
 import Transition from "../../components/Transition.js";
@@ -21,11 +22,11 @@ export default function Home() {
         <div id={styles.topBar}>
           <div className={styles.container}>
             <div>
-              <Link to="/">
+              <Link href="/">
                 <img
-                  width="220"
+                  width="240"
                   height="50"
-                  src="Logo-black.png"
+                  src="logo-white.png"
                   id={styles.logo}
                   alt="hero"
                 ></img>
@@ -37,9 +38,8 @@ export default function Home() {
                   <li>
                     <Link
                       className={styles.menuItem}
-                      to="choose"
-                      spy={true}
-                      smooth={true}
+                      href="#choose"
+                      scroll={false}
                     >
                       Why Choose OppLinx?
                     </Link>
@@ -47,9 +47,8 @@ export default function Home() {
                   <li>
                     <Link
                       className={styles.menuItem}
-                      to="recruit"
-                      spy={true}
-                      smooth={true}
+                      href="#recruit"
+                      scroll={false}
                     >
                       Recruitment
                     </Link>
@@ -57,9 +56,8 @@ export default function Home() {
                   <li>
                     <Link
                       className={styles.menuItem}
-                      to="contact"
-                      spy={true}
-                      smooth={true}
+                      href="/ContactUs"
+                      scroll={false}
                     >
                       Contact Us
                     </Link>

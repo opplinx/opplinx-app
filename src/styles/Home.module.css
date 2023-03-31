@@ -5,7 +5,7 @@
   top: 0;
   left: 0;
   width:  100%;
-  background: #dee8f5;
+  background: #003696;
   transition: .25s ease-in-out;
   z-index: 1025;
 }
@@ -45,21 +45,20 @@
 
 
 .menuItem {
-  color: black;
+  color: white;
   text-decoration: none;
-  border-radius: 2px;
   padding: 9px;
   transition: all 0.5s ease;
 }
 
 .menuItem:hover {
   font-size: 1.2rem;
-  border-bottom: 5px solid #003696;
+  border-bottom: 5px solid #fff;
   cursor: pointer;
 }
 
 .menuItem:visited {
-  color: black;
+  color: white;
 }
 
 .heroContainer {
@@ -67,6 +66,7 @@
   text-align: center;
   color: #fff;
   font-size: 60px;
+  height: 805px;
 }
 
 .ny {
