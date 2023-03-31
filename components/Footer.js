@@ -1,4 +1,5 @@
 import styles from "../src/styles/Footer.module.css";
+import Image from "next/image";
 
 function Footer() {
   return (
@@ -38,18 +39,18 @@ function Footer() {
             <h4>follow us</h4>
             <div className={styles.socialLinks}>
               <a href="#">
-                <img
+                <Image
                   className={styles.socialIcon}
                   height="20"
                   width="20"
                   src="facebook-f.svg"
-                ></img>
+                />
               </a>
               <a href="#">
-                <img height="20" width="20" src="twitter.svg"></img>
+                <Image height="20" width="20" src="twitter.svg" />
               </a>
               <a href="#">
-                <img height="20" width="20" src="instagram.svg"></img>
+                <Image height="20" width="20" src="instagram.svg" />
               </a>
             </div>
           </div>
@@ -59,7 +60,7 @@ function Footer() {
               width="400"
               height="300"
               style={{ border: 0, paddingRight: 50 }}
-              //   allowfullscreen=""
+              allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>

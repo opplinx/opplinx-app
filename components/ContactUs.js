@@ -1,4 +1,5 @@
 import styles from "../src/styles/ContactUs.module.css";
+import Image from "next/image";
 
 function ContactUs() {
   return (
@@ -6,7 +7,7 @@ function ContactUs() {
       <header className={styles.contactUsHeader}>Contact Us</header>
       <div className={styles.contactMethods}>
         <div className={styles.contactMethod}>
-          <img
+          <Image
             className={styles.imageAddress}
             height="21"
             width="21"
@@ -15,7 +16,7 @@ function ContactUs() {
           &nbsp;215 Park Ave S 11th floor, New York, NY 10003
         </div>
         <div className={styles.contactMethod}>
-          <img height="15" width="21" src="/email-1.png" />
+          <Image height="15" width="21" src="/email-1.png" />
           &nbsp;hello@opplinx.com
         </div>
       </div>
