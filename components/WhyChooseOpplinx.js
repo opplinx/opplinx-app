@@ -1,4 +1,5 @@
 import styles from "../src/styles/WhyChooseOpplinx.module.css";
+import Image from "next/image";
 
 function WhyChooseOpplinx() {
   return (
@@ -7,7 +8,7 @@ function WhyChooseOpplinx() {
       <ul className={styles.bullets}>
         <li>
           <div className={styles.arrowHeading}>
-            <img height="20" width="20" src="/arrow-1.png" />
+            <Image height="20" width="20" src="/arrow-1.png" />
             <em>&nbsp;ReactJS &nbsp;Expertise</em>
           </div>
           <strong>-------</strong>
@@ -17,7 +18,7 @@ function WhyChooseOpplinx() {
         </li>
         <li>
           <div className={styles.arrowHeading}>
-            <img height="20" width="20" src="/arrow-1.png" />
+            <Image height="20" width="20" src="/arrow-1.png" />
             <em>&nbsp;Tailored &nbsp;Solutions</em>
           </div>
           <strong>-------</strong>We recognize that every organization is
@@ -26,7 +27,7 @@ function WhyChooseOpplinx() {
         </li>
         <li>
           <div className={styles.arrowHeading}>
-            <img height="20" width="20" src="/arrow-1.png" />
+            <Image height="20" width="20" src="/arrow-1.png" />
             <em>&nbsp;Streamlined &nbsp;Process</em>
           </div>
           <strong>-------</strong>Our efficient recruitment process saves you
@@ -35,21 +36,21 @@ function WhyChooseOpplinx() {
         </li>
         <li>
           <div className={styles.arrowHeading}>
-            <img height="20" width="20" src="/arrow-1.png" />
+            <Image height="20" width="20" src="/arrow-1.png" />
             <em>&nbsp;Lasting &nbsp;Partnerships</em>
           </div>
-          <strong>-------</strong>We're committed to building long-term
-          relationships with our clients, ensuring that we're always there to
-          support your evolving talent needs.
+          <strong>-------</strong>We&apos;re committed to building long-term
+          relationships with our clients, ensuring that we&apos;re always there
+          to support your evolving talent needs.
         </li>
         <li>
           <div className={styles.arrowHeading}>
-            <img height="20" width="20" src="/arrow-1.png" />
+            <Image height="20" width="20" src="/arrow-1.png" />
             <em>&nbsp;Guaranteed &nbsp;Satisfaction</em>
           </div>
-          <strong>-------</strong>At OppLinx, we're confident in our ability to
-          deliver exceptional ReactJS developers. If you're not fully satisfied,
-          we'll work diligently to make things right.
+          <strong>-------</strong>At OppLinx, we&apos;re confident in our
+          ability to deliver exceptional ReactJS developers. If you&apos;re not
+          fully satisfied, we&apos;ll work diligently to make things right.
         </li>
       </ul>
     </div>
