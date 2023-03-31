@@ -6,9 +6,14 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #dee8f5;
+}
+
 
 html {
     font-family: "Poppins";
+    scroll-behavior: smooth;
 }
 
 #outer {

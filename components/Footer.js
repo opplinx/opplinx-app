@@ -23,9 +23,6 @@ function Footer() {
               <li>
                 <a href="#">privacy policy</a>
               </li>
-              <li>
-                <a href="#">affiliate program</a>
-              </li>
             </ul>
           </div>
           <div className={styles.footerCol}>
@@ -33,18 +30,6 @@ function Footer() {
             <ul>
               <li>
                 <a href="#">FAQ</a>
-              </li>
-              <li>
-                <a href="#">shipping</a>
-              </li>
-              <li>
-                <a href="#">returns</a>
-              </li>
-              <li>
-                <a href="#">order status</a>
-              </li>
-              <li>
-                <a href="#">payment options</a>
               </li>
             </ul>
           </div>
@@ -66,20 +51,17 @@ function Footer() {
               <a href="#">
                 <img height="20" width="20" src="instagram.svg"></img>
               </a>
-              <a href="#">
-                <i className="fab fa-linkedin-in"></i>
-              </a>
             </div>
           </div>
           <div className={styles.footerCol}>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.1421178443966!2d-73.99064578507925!3d40.73689824402978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a1f1265c5b%3A0xe0b2579db2abce55!2s215%20Park%20Avenue%20South!5e0!3m2!1sen!2sus!4v1680213123088!5m2!1sen!2sus"
-              // width="600"
-              // height="450"
-              // style="border:0;"
-              // allowfullscreen=""
-              // loading="lazy"
-              // referrerpolicy="no-referrer-when-downgrade"
+              width="400"
+              height="300"
+              style={{ border: 0, paddingRight: 50 }}
+              //   allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
         </div>
