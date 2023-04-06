@@ -62,16 +62,18 @@
 }
 
 .heroContainer {
-  position: relative;
+  display: flex;
   text-align: center;
   color: #fff;
   font-size: 60px;
   height: 805px;
+
 }
 
 .ny {
   width: 100vw;
   height: auto;
+  /* object-fit: fill; */
 }
 
 /* .heroTextContainer {

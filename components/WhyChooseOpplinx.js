@@ -8,7 +8,7 @@ function WhyChooseOpplinx() {
       <ul className={styles.bullets}>
         <li>
           <div className={styles.arrowHeading}>
-            <Image height="20" width="20" src="/arrow-1.png" />
+            <Image height="20" width="20" src="/arrow-1.png" alt="i" />
             <em>&nbsp;ReactJS &nbsp;Expertise</em>
           </div>
           <strong>-------</strong>
@@ -18,7 +18,7 @@ function WhyChooseOpplinx() {
         </li>
         <li>
           <div className={styles.arrowHeading}>
-            <Image height="20" width="20" src="/arrow-1.png" />
+            <Image height="20" width="20" src="/arrow-1.png" alt="i" />
             <em>&nbsp;Tailored &nbsp;Solutions</em>
           </div>
           <strong>-------</strong>We recognize that every organization is
@@ -27,7 +27,7 @@ function WhyChooseOpplinx() {
         </li>
         <li>
           <div className={styles.arrowHeading}>
-            <Image height="20" width="20" src="/arrow-1.png" />
+            <Image height="20" width="20" src="/arrow-1.png" alt="i" />
             <em>&nbsp;Streamlined &nbsp;Process</em>
           </div>
           <strong>-------</strong>Our efficient recruitment process saves you
@@ -36,7 +36,7 @@ function WhyChooseOpplinx() {
         </li>
         <li>
           <div className={styles.arrowHeading}>
-            <Image height="20" width="20" src="/arrow-1.png" />
+            <Image height="20" width="20" src="/arrow-1.png" alt="i" />
             <em>&nbsp;Lasting &nbsp;Partnerships</em>
           </div>
           <strong>-------</strong>We&apos;re committed to building long-term
@@ -45,7 +45,7 @@ function WhyChooseOpplinx() {
         </li>
         <li>
           <div className={styles.arrowHeading}>
-            <Image height="20" width="20" src="/arrow-1.png" />
+            <Image height="20" width="20" src="/arrow-1.png" alt="i" />
             <em>&nbsp;Guaranteed &nbsp;Satisfaction</em>
           </div>
           <strong>-------</strong>At OppLinx, we&apos;re confident in our

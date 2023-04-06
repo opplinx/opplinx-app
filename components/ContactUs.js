@@ -12,11 +12,12 @@ function ContactUs() {
             height="21"
             width="21"
             src="/address-1.png"
+            alt="i"
           />
           &nbsp;215 Park Ave S 11th floor, New York, NY 10003
         </div>
         <div className={styles.contactMethod}>
-          <Image height="15" width="21" src="/email-1.png" />
+          <Image height="15" width="21" src="/email-1.png" alt="i" />
           &nbsp;hello@opplinx.com
         </div>
       </div>

@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.footerLogo}>
-        <img width="220" height="50" src="Logo-black.png" />
+        <Image width="220" height="50" src="/Logo-black.png" alt="i" />
       </div>
       <div className={styles.footerMotto}>
         Linking Opportunities with Careers
@@ -44,13 +44,14 @@ function Footer() {
                   height="20"
                   width="20"
                   src="facebook-f.svg"
+                  alt="i"
                 />
               </a>
               <a href="#">
-                <Image height="20" width="20" src="twitter.svg" />
+                <Image height="20" width="20" src="twitter.svg" alt="i" />
               </a>
               <a href="#">
-                <Image height="20" width="20" src="instagram.svg" />
+                <Image height="20" width="20" src="instagram.svg" alt="i" />
               </a>
             </div>
           </div>
@@ -60,9 +61,9 @@ function Footer() {
               width="400"
               height="300"
               style={{ border: 0, paddingRight: 50 }}
-              allowfullscreen=""
+              allowFullScreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
         </div>
