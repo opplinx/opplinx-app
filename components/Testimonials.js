@@ -10,7 +10,8 @@ function Testimonials() {
             Opplinx&apos;s dedication to understanding my career goals and
             technical background was outstanding. They found me the perfect
             opportunity and I couldn't be happier with my new role.
-          </q>{" "}
+          </q>
+          {"  "}
           <span>- Chris B.</span>
         </div>
         <div className={styles.testimonial}>
@@ -18,7 +19,8 @@ function Testimonials() {
             Opplinx made a huge difference in my job search! Their expertise in
             the tech industry helped me land the perfect position that matched
             my skill set. I can't recommend them enough!
-          </q>{" "}
+          </q>
+          {"  "}
           <span>- Chase Y.</span>
         </div>
         <div className={styles.testimonial}>
@@ -27,7 +29,8 @@ function Testimonials() {
             me with an amazing company where I could showcase my abilities and
             contribute to meaningful projects. Highly recommended for developers
             in search of their next big break!
-          </q>{" "}
+          </q>
+          {"  "}
           <span>- Warren W.</span>
         </div>
       </div>
