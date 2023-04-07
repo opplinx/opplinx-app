@@ -13,45 +13,19 @@ function Footer() {
       <div className={styles.container}>
         <div className={styles.row}>
           <div className={styles.footerCol}>
-            <h4>company</h4>
-            <ul className={styles.ul}>
-              <li>
-                <a href="#">about us</a>
-              </li>
-              <li>
-                <a href="#">our services</a>
-              </li>
-              <li>
-                <a href="#">privacy policy</a>
-              </li>
-            </ul>
-          </div>
-          <div className={styles.footerCol}>
-            <h4>get help</h4>
-            <ul>
-              <li>
-                <a href="#">FAQ</a>
-              </li>
-            </ul>
-          </div>
-
-          <div className={styles.footerCol}>
             <h4>follow us</h4>
             <div className={styles.socialLinks}>
-              <a href="#">
+              <a
+                href="https://www.linkedin.com/company/opplinx/about/"
+                target="_blank"
+              >
                 <Image
                   className={styles.socialIcon}
-                  height="20"
-                  width="20"
-                  src="facebook-f.svg"
+                  height="50"
+                  width="50"
+                  src="/linkedin-90.png"
                   alt="i"
                 />
-              </a>
-              <a href="#">
-                <Image height="20" width="20" src="twitter.svg" alt="i" />
-              </a>
-              <a href="#">
-                <Image height="20" width="20" src="instagram.svg" alt="i" />
               </a>
             </div>
           </div>
