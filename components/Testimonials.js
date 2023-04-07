@@ -9,7 +9,7 @@ function Testimonials() {
           <q>
             Opplinx&apos;s dedication to understanding my career goals and
             technical background was outstanding. They found me the perfect
-            opportunity and I couldn't be happier with my new role.
+            opportunity and I couldn&apos;t be happier with my new role.
           </q>
           {"  "}
           <span>- Chris B.</span>
