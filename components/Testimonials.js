@@ -18,7 +18,7 @@ function Testimonials() {
           <q>
             Opplinx made a huge difference in my job search! Their expertise in
             the tech industry helped me land the perfect position that matched
-            my skill set. I can't recommend them enough!
+            my skill set. I can&apos;t recommend them enough!
           </q>
           {"  "}
           <span>- Chase Y.</span>
