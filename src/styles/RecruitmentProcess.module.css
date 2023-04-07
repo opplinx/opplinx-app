@@ -20,8 +20,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 80vh;
-    background-image: linear-gradient(to bottom right, #dee8f5, #afafaf);;
+    height: 55vh;
+    background-image: linear-gradient(to bottom right, #dee8f5, #afafaf);
 
 }
 
@@ -33,7 +33,6 @@
 
 .infoLeftDiv:hover {
     transition: .25s;
-    padding-left: 6px;
     background-color: #003696;
     color: #fff
 }

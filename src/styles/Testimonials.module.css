@@ -13,5 +13,19 @@
 
 .testimonialsContainer {
     display: flex;
+    margin: 0 0 35px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    
 
+}
+
+.testimonial {
+    padding: 0 10px 0 10px;
+}
+
+.testimonial span {
+    white-space: nowrap;
+    font-style: oblique;
+    font-weight: bold;
 }
