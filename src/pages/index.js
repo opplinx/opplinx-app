@@ -9,6 +9,7 @@ import WhyChooseOpplinx from "../../components/WhyChooseOpplinx.js";
 import Testimonials from "../../components/Testimonials.js";
 import ContactUs from "../../components/ContactUs.js";
 import Footer from "../../components/Footer.js";
+import Location from "../../components/Location.js";
 
 export default function Home() {
   return (
@@ -69,18 +70,20 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.heroContainer}>
-          <Image
-            className={styles.ny}
-            height="750"
-            width="1200"
-            src="/brooklyn.jpg"
-            alt="ny"
-          ></Image>
-          <div className="">
-            <div className={styles.heroText}>
+          <video
+            height="400"
+            width="400"
+            src="/computer-video-2.mp4"
+            type="video/mp4"
+            loop
+            muted
+            autoPlay
+          ></video>
+          <div className={styles.heroTextContainer}>
+            <div className={styles.heroText1}>
               Linking Opportunities with Careers
             </div>
-            <div className={styles.heroTextSub}>
+            <div className={styles.heroText2}>
               Leading React JS and Full Stack Developer Recruitment Agency
             </div>
           </div>
@@ -95,6 +98,7 @@ export default function Home() {
         <ContactUs />
         <br />
         <Footer />
+        <Location />
       </div>
     </>
   );

@@ -54,7 +54,7 @@ p.source a {
     color: black;
     list-style-type: none;
     margin: auto;
-    /* flex-wrap: wrap */
+    flex-wrap: wrap
 }
 
 .arrowHeading {
