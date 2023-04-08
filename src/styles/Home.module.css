@@ -66,39 +66,37 @@
   text-align: center;
   color: #fff;
   font-size: 60px;
-  height: 805px;
-
-}
-
-.ny {
+  height: 100vh;
   width: 100vw;
-  height: auto;
-  /* object-fit: fill; */
+
 }
 
-/* .heroTextContainer {
-  display: flex;
-  justify-content: center;
-} */
+.heroContainer video {
+  margin-top: 125px;
+  width: 100%;
+  height: 100%;
+  object-fit:fill;
+}
 
-.heroText {
+
+.heroTextContainer{
+  /* position: relative;
+  display: inline-block; */
+}
+.heroText1 {
   font-family: "Poppins";
   position: absolute;
   width: 100vw;
-  top: 28%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 30%;
+  left: 0;
+  /* transform: translate(-50%, -50%); */
 }
-.heroTextSub {
+.heroText2 {
   font-family: "Poppins";
   position: absolute;
-
-  border-radius: 10px;
-  padding-left: 8px;
-  padding-right: 8px;
-  /* background-color: rgba(209,232,232,0.4); */
+  width: 100vw;
+  top: 50%;
+  left: 0;
   font-size: 1.3rem;
-  top: 37%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+ 
 }
