@@ -49,14 +49,14 @@ function ContactUs() {
             <input
               className={styles.formFlexItem}
               type="text"
-              placeholder="Email Address"
+              placeholder="Email Address*"
               name="email"
               required
             />
           </div>
           <div className={styles.formMessageAndSubmit}>
             <textarea type="text" placeholder="Message" name="message" />
-            <button type="submit">SUBMIT</button>
+            <button type="submit">Get in Touch</button>
           </div>
         </form>
       </div>
